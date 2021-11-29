@@ -1365,5 +1365,6 @@ public:
 		}
 	}
 
-	bool SetBoundaryCheck(bool state) { is_boundary_check = state; }
+	void SetBoundaryCheck(bool state) { is_boundary_check = state; }
+	void SetSceneSize(const olc::vi2d& size) { scene_size = size; }
 };
